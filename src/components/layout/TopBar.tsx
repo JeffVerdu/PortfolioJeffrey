@@ -67,15 +67,6 @@ export const TopBar = () => {
                     Sobre mi
                   </a>
                 </DropdownItem>
-                <DropdownItem key="projects">
-                  <a
-                    onClick={scrollToSection}
-                    href="#projects"
-                    className="text-white"
-                  >
-                    Proyectos
-                  </a>
-                </DropdownItem>
                 <DropdownItem key="education">
                   <a
                     onClick={scrollToSection}
@@ -83,6 +74,15 @@ export const TopBar = () => {
                     className="text-white"
                   >
                     Educación
+                  </a>
+                </DropdownItem>
+                <DropdownItem key="projects">
+                  <a
+                    onClick={scrollToSection}
+                    href="#projects"
+                    className="text-white"
+                  >
+                    Proyectos
                   </a>
                 </DropdownItem>
                 <DropdownItem key="resume">
