@@ -31,11 +31,12 @@ export const Projects = () => {
             radius="full"
             size="sm"
           >
-            <Github size={16} />
             <a
               href="https://github.com/JeffVerdu/eCommerceReactJS_Verdu"
               target="_blank"
+              className="flex items-center gap-1"
             >
+              <Github size={16} />
               GitHub
             </a>
           </Button>
@@ -45,11 +46,12 @@ export const Projects = () => {
             radius="full"
             size="sm"
           >
-            <Globe size={16} />
             <a
               href="https://reactjs-ecommerce-twistplot-jeffrey.vercel.app/"
               target="_blank"
+              className="flex items-center gap-1"
             >
+              <Globe size={16} />
               Visitar
             </a>
           </Button>
