@@ -61,41 +61,37 @@ export const TopBar = () => {
                     />
                   </div>
                 </DropdownItem>
-                <DropdownItem key="about">
-                  <a
-                    onClick={scrollToSection}
-                    href="#about"
-                    className="text-white"
-                  >
-                    Sobre mi
-                  </a>
+                <DropdownItem
+                  key="about"
+                  onClick={scrollToSection}
+                  href="#about"
+                  className="text-white"
+                >
+                  Sobre mi
                 </DropdownItem>
-                <DropdownItem key="education">
-                  <a
-                    onClick={scrollToSection}
-                    href="#education"
-                    className="text-white"
-                  >
-                    Educación
-                  </a>
+                <DropdownItem
+                  key="education"
+                  onClick={scrollToSection}
+                  href="#education"
+                  className="text-white"
+                >
+                  Educación
                 </DropdownItem>
-                <DropdownItem key="projects">
-                  <a
-                    onClick={scrollToSection}
-                    href="#projects"
-                    className="text-white"
-                  >
-                    Proyectos
-                  </a>
+                <DropdownItem
+                  key="projects"
+                  onClick={scrollToSection}
+                  href="#projects"
+                  className="text-white"
+                >
+                  Proyectos
                 </DropdownItem>
-                <DropdownItem key="resume">
-                  <a
-                    onClick={scrollToSection}
-                    href="#resume"
-                    className="text-white"
-                  >
-                    Experiencia laboral
-                  </a>
+                <DropdownItem
+                  key="resume"
+                  onClick={scrollToSection}
+                  href="#resume"
+                  className="text-white"
+                >
+                  Experiencia laboral
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
