@@ -51,7 +51,7 @@ export const TopBar = () => {
               </DropdownTrigger>
               <DropdownMenu aria-label="Links" variant="bordered">
                 <DropdownItem key="about">
-                  <div className="mb-1 pointer-events-none">
+                  <div className="mb-1 cursor-default pointer-events-none">
                     <img
                       className="rounded-full overflow-hidden w-16 my-o mx-auto"
                       src="/logo_jv_portfolio.jpeg"
@@ -87,9 +87,13 @@ export const TopBar = () => {
                   </a>
                 </DropdownItem>
                 <DropdownItem key="resume">
-                  <Link href="#resume" className="text-white">
+                  <a
+                    onClick={scrollToSection}
+                    href="#resume"
+                    className="text-white"
+                  >
                     Experiencia laboral
-                  </Link>
+                  </a>
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
