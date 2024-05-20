@@ -19,8 +19,10 @@ export const TopBar = () => {
     event.preventDefault();
     const target = event.target as HTMLAnchorElement;
     const id = target.getAttribute("href")?.replace("#", "");
-    const element = document.getElementById(String(id));
-    element?.scrollIntoView({ behavior: "smooth" });
+    if (id) {
+      const element = document.getElementById(id);
+      element?.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -50,8 +52,8 @@ export const TopBar = () => {
                 </Button>
               </DropdownTrigger>
               <DropdownMenu aria-label="Links" variant="bordered">
-                <DropdownItem key="about">
-                  <div className="mb-1 cursor-default pointer-events-none">
+                <DropdownItem key="marca">
+                  <div className="mb-1 cursor-none pointer-events-none">
                     <img
                       className="rounded-full overflow-hidden w-16 my-o mx-auto"
                       src="/logo_jv_portfolio.jpeg"
