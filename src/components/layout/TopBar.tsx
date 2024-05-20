@@ -51,12 +51,12 @@ export const TopBar = () => {
               </DropdownTrigger>
               <DropdownMenu aria-label="Links" variant="bordered">
                 <DropdownItem key="about">
-                  <a
-                    onClick={scrollToSection}
-                    href="#about"
-                    className="rounded-full overflow-hidden w-16 my-o mx-auto mb-1"
-                  >
-                    <img src="/logo_jv_portfolio.jpeg" alt="" />
+                  <a onClick={scrollToSection} href="#about" className="mb-1">
+                    <img
+                      className="rounded-full overflow-hidden w-16 my-o mx-auto"
+                      src="/logo_jv_portfolio.jpeg"
+                      alt=""
+                    />
                   </a>
                 </DropdownItem>
                 <DropdownItem key="about">
