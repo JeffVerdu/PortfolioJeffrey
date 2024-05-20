@@ -20,7 +20,7 @@ export const Resume = () => {
     <motion.div
       initial="offscreen"
       whileInView="onscreen"
-      viewport={{ once: false, amount: 0.3 }}
+      viewport={{ once: false, amount: 0.5 }}
     >
       <motion.article
         variants={variants}

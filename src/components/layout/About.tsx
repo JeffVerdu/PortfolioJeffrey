@@ -47,7 +47,7 @@ export const About = ({ isVisible }: { isVisible: boolean }) => {
       <motion.div
         initial="offscreen"
         whileInView="onscreen"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.5 }}
       >
         <motion.div variants={leftVariants}>
           <h2 className="text-3xl font-bold 2xl:text-6xl">Jeffrey Verdú</h2>
@@ -86,7 +86,7 @@ export const About = ({ isVisible }: { isVisible: boolean }) => {
       <motion.div
         initial="offscreen"
         whileInView="onscreen"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.5 }}
         className="my-0 mx-auto"
       >
         <motion.div variants={rightVariants}>
