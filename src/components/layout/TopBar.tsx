@@ -28,8 +28,8 @@ export const TopBar = () => {
       <Navbar className="bg-slate-950 text-white shadow-[6px_0_7px_1px_rgba(255,255,255,0.3)]">
         <NavbarBrand className="hidden md:block">
           <a
-            href="#about"
             onClick={scrollToSection}
+            href="#about"
             className="font-bold text-white text-xs md:text-base lg:text-xl 2xl:text-2xl"
           >
             JEFFREY VERDÚ
@@ -50,10 +50,14 @@ export const TopBar = () => {
                 </Button>
               </DropdownTrigger>
               <DropdownMenu aria-label="Links" variant="bordered">
-                <DropdownItem key="about" onClick={scrollToSection}>
-                  <div className="rounded-full overflow-hidden w-16 my-o mx-auto mb-1">
+                <DropdownItem key="about">
+                  <a
+                    onClick={scrollToSection}
+                    href="#about"
+                    className="rounded-full overflow-hidden w-16 my-o mx-auto mb-1"
+                  >
                     <img src="/logo_jv_portfolio.jpeg" alt="" />
-                  </div>
+                  </a>
                 </DropdownItem>
                 <DropdownItem key="about">
                   <a
