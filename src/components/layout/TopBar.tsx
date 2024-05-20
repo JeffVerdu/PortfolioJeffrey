@@ -51,7 +51,7 @@ export const TopBar = () => {
               </DropdownTrigger>
               <DropdownMenu aria-label="Links" variant="bordered">
                 <DropdownItem key="about">
-                  <div className="mb-1">
+                  <div className="mb-1 pointer-events-none">
                     <img
                       className="rounded-full overflow-hidden w-16 my-o mx-auto"
                       src="/logo_jv_portfolio.jpeg"
