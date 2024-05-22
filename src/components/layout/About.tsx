@@ -73,13 +73,19 @@ export const About = ({ isVisible }: { isVisible: boolean }) => {
             Mendoza, Argentina
           </p>
           <p className="mb-3 2xl:text-2xl">¡Bienvenid@ a mi portafolio!</p>
-          <p className="text-base 2xl:text-2xl">
-            Soy egresado de técnico en Programación y Análisis de Sistemas, con
-            formación adicional en certificados de JavaScript y ReactJS. Aunque
-            aún no cuento con experiencia laboral formal en el área del
-            desarrollo web, mi dedicación y entusiasmo por la programación se
-            reflejan en el interés por seguir adquiriendo conocimientos y en los
-            proyectos que he realizado de manera independiente.
+          <p className="text-base 2xl:text-2xl mb-2">
+            Soy egresado como Técnico en Programación y Análisis de Sistemas,
+            apasionado por el desarrollo web. Me considero una persona
+            comprometida con resolver imprevistos y realizar las tareas de
+            manera eficiente, siempre cuidando los detalles.
+          </p>
+          <p>
+            Durante mis estudios, he trabajado en proyectos utilizando
+            tecnologías como ReactJS, HTML, CSS, SASS, TailwindCSS y NextUI.
+            Estoy ansioso por llevar mi aprendizaje al siguiente nivel y
+            contribuir con mi energía y habilidades a un equipo dinámico.
+            Gracias por visitar mi portafolio, y espero que encuentres
+            interesante mi trabajo.
           </p>
         </motion.div>
       </motion.div>

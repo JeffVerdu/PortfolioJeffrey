@@ -10,7 +10,7 @@ export const Sidebar = () => {
     element?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const visible = { opacity: 1, y: 0, transition: { duration: 0.5 } };
+  const visible = { opacity: 1, y: 0, transition: { duration: 1 } };
 
   const itemVariants = {
     hidden: { opacity: 0, y: 10 },
@@ -25,7 +25,7 @@ export const Sidebar = () => {
       <motion.ul
         initial="hidden"
         animate="visible"
-        exit={{ opacity: 0, transition: { duration: 1 } }}
+        exit={{ opacity: 0, transition: { duration: 2 } }}
         variants={{ visible: { transition: { staggerChildren: 0.3 } } }}
         className="flex flex-col gap-3 px-5 2xl:px-10 2xl:text-2xl 2xl:w-[50%]"
       >
@@ -44,7 +44,7 @@ export const Sidebar = () => {
             href="#education"
             className="block hover:bg-slate-950 rounded-lg py-1 px-2"
           >
-            Educación
+            Formación
           </a>
         </motion.li>
         <motion.li variants={itemVariants}>

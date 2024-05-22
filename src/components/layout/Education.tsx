@@ -11,18 +11,18 @@ export const Education = () => {
       year: "2022-2024",
     },
     {
-      title: "Curso de JavaScript",
-      place: "Coderhouse",
-      description:
-        "Durante este curso intensivo, adquirí un profundo conocimiento y habilidades prácticas en el lenguaje de programación JavaScript. Desde los fundamentos hasta conceptos avanzados, este programa cubrió todos los aspectos clave de JavaScript, incluyendo manipulación del DOM, eventos, funciones, arrays, objetos, y mucho más.",
-      year: "2023",
-    },
-    {
-      title: "Curso de ReactJS",
+      title: "Certificación de ReactJS",
       place: "Coderhouse",
       description:
         "Durante el programa, exploré los conceptos fundamentales de ReactJS, incluyendo componentes, props, state, ciclo de vida, enrutamiento y manejo de eventos. Aprendí a diseñar interfaces de usuario interactivas y dinámicas, utilizando las mejores prácticas de desarrollo y las últimas herramientas y tecnologías asociadas con ReactJS.",
       year: "2024",
+    },
+    {
+      title: "Certificación de JavaScript",
+      place: "Coderhouse",
+      description:
+        "Durante este curso intensivo, adquirí un profundo conocimiento y habilidades prácticas en el lenguaje de programación JavaScript. Desde los fundamentos hasta conceptos avanzados, este programa cubrió todos los aspectos clave de JavaScript, incluyendo manipulación del DOM, eventos, funciones, arrays, objetos, y mucho más.",
+      year: "2023",
     },
   ];
 
