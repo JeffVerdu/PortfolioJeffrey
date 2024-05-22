@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <Card
       isFooterBlurred
-      className="w-full h-[250px] md:h-[400px] lg:h-[450px] 2xl:h-[600px] col-span-12 sm:col-span-5 shadow-black shadow-xl"
+      className="w-full h-[250px] md:h-[400px] lg:h-[450px] 2xl:h-[600px] col-span-12 sm:col-span-5 shadow-black shadow-xl lg:rounded-3xl"
     >
       <CardHeader className="absolute z-10 top-1 flex-col items-start"></CardHeader>
       <Image
