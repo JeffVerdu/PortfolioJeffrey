@@ -3,7 +3,7 @@ import { TopBar } from "../layout/TopBar";
 import { About } from "../layout/About";
 import { Education } from "../layout/Education";
 import { Resume } from "../layout/Resume";
-import { Projects } from "../layout/Projects";
+import { ProjectsList } from "../layout/ProjectsList";
 
 export const Main = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -17,11 +17,10 @@ export const Main = () => {
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        // Si la sección "about" está en la vista del usuario
         if (entry.isIntersecting && entry.target.id === "about") {
-          setIsDivVisible(false); // Ocultar el TopBar
+          setIsDivVisible(false);
         } else {
-          setIsDivVisible(true); // Mostrar el TopBar en otras secciones
+          setIsDivVisible(true);
         }
       });
     });
@@ -39,7 +38,7 @@ export const Main = () => {
   }, []);
 
   return (
-    <div className="md:ml-[25%] w-full">
+    <div className="md:ml-[25%] w-full md:w-[75%]">
       {isTopBarVisible && (
         <div
           className={`z-[9999] fixed top-0 w-full md:w-[75%] transform duration-300 ease-in-out ${
@@ -59,7 +58,7 @@ export const Main = () => {
         </section>
         <section id="projects" className="pt-16 container-box">
           <h1 className="text-center text-2xl mt-5 mb-10">Proyectos</h1>
-          <Projects />
+          <ProjectsList />
         </section>
         <section id="resume" className="pt-16 pb-10 container-box">
           <h1 className="text-center text-2xl mt-5 mb-10">

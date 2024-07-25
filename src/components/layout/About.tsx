@@ -74,18 +74,15 @@ export const About = ({ isVisible }: { isVisible: boolean }) => {
           </p>
           <p className="mb-3 2xl:text-2xl">¡Bienvenid@ a mi portafolio!</p>
           <p className="text-base 2xl:text-2xl mb-2">
-            Soy egresado como Técnico en Programación y Análisis de Sistemas,
-            apasionado por el desarrollo web. Me considero una persona
-            comprometida con resolver imprevistos y realizar las tareas de
-            manera eficiente, siempre cuidando los detalles.
+            Soy egresado como Técnico en Programación y Análisis de Sistemas y
+            apasionado por el desarrollo web.
           </p>
           <p>
-            Durante mis estudios, he trabajado en proyectos utilizando
-            tecnologías como ReactJS, HTML, CSS, SASS, TailwindCSS y NextUI.
-            Estoy ansioso por llevar mi aprendizaje al siguiente nivel y
-            contribuir con mi energía y habilidades a un equipo dinámico.
-            Gracias por visitar mi portafolio, y espero que encuentres
-            interesante mi trabajo.
+            Durante mis estudios, he realizado proyectos utilizando tecnologías
+            como ReactJS, HTML, CSS, SASS, TailwindCSS, FramerMotion y NextUI.
+            Actualmente trabajo de manera independiente, desarrollando diversos
+            proyectos web que demuestran mi capacidad para crear soluciones
+            funcionales y visualmente atractivas.
           </p>
         </motion.div>
       </motion.div>

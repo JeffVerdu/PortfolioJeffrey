@@ -25,7 +25,7 @@ export const Mail = ({
   };
 
   return (
-    <p className={`${classes}`}>
+    <div className={`${classes}`}>
       {email}
       <Copy
         size={iconSize}
@@ -36,6 +36,6 @@ export const Mail = ({
         className="cursor-pointer"
       />
       <Toaster />
-    </p>
+    </div>
   );
 };

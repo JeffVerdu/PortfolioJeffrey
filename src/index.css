@@ -14,6 +14,15 @@ img {
   margin: 0 auto;
 }
 
+.slick-slide {
+  padding: 0 1rem 1rem 1rem;
+}
+@media (min-width: 1024px) {
+  .slick-slide {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
