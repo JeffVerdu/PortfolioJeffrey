@@ -1,15 +1,9 @@
 import { Card, CardFooter } from "@nextui-org/card";
 import { Button, Image } from "@nextui-org/react";
-import { Github, Globe } from "lucide-react";
+import { Globe } from "lucide-react";
 import { Project as ProjectType } from "../../types";
 
-export const Project = ({
-  name,
-  description,
-  github,
-  url,
-  path,
-}: ProjectType) => {
+export const Project = ({ name, description, url, path }: ProjectType) => {
   return (
     <Card
       isFooterBlurred
