@@ -52,9 +52,9 @@ export const About = ({ isVisible }: { isVisible: boolean }) => {
         <motion.div variants={leftVariants}>
           <h2 className="text-3xl font-bold 2xl:text-6xl">Jeffrey Verdú</h2>
           <p className="text-lg 2xl:text-2xl font-thin italic mb-5">
-            Trainee Frontend Developer
+            Frontend Developer
           </p>
-          <p className="text-sm 2xl:text-2xl font-semibold flex gap-2 items-center mb-1">
+          <p className="text-md 2xl:text-2xl font-bold flex gap-2 items-center mb-1">
             <FileCode2 size={20} color="#ffffff" />
             ReactJS | HTML | CSS | SASS | TailwindCSS
           </p>
@@ -63,26 +63,23 @@ export const About = ({ isVisible }: { isVisible: boolean }) => {
 
             {!showMail && (
               <Mail
-                classes="text-sm 2xl:text-2xl font-semibold flex gap-2 items-center"
+                classes="text-sm 2xl:text-2xl font-normal flex gap-2 items-center"
                 iconSize={15}
               />
             )}
           </div>
-          <p className="flex items-center gap-2 text-sm 2xl:text-2xl font-semibold mb-5">
-            <MapPin size={20} color="#ffffff" />
-            Mendoza, Argentina
-          </p>
-          <p className="mb-3 2xl:text-2xl">¡Bienvenid@ a mi portafolio!</p>
+          <p className="mb-3 2xl:text-2xl mt-5">¡Bienvenid@ a mi portafolio!</p>
           <p className="text-base 2xl:text-2xl mb-2">
             Soy egresado como Técnico en Programación y Análisis de Sistemas y
             apasionado por el desarrollo web.
           </p>
           <p>
             Durante mis estudios, he realizado proyectos utilizando tecnologías
-            como ReactJS, HTML, CSS, SASS, TailwindCSS, FramerMotion y NextUI.
-            Actualmente trabajo de manera independiente, desarrollando diversos
-            proyectos web que demuestran mi capacidad para crear soluciones
-            funcionales y visualmente atractivas.
+            como{" "}
+            <strong>
+              ReactJS, HTML, CSS, SASS, TailwindCSS, FramerMotion y NextUI
+            </strong>
+            . Actualmente trabajo de manera independiente.
           </p>
         </motion.div>
       </motion.div>

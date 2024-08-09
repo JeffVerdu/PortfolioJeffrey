@@ -1,16 +1,16 @@
 [
   {
-    "name": "PosicionAR!",
-    "description": "Aplicación web desarrollada para un cliente freelance. Cuenta con funcionalidad para publicar y administrar anuncios.",
-    "url": "https://posicionarenlinea.com",
-    "path": "/portada-posicionar.png",
-    "github": ""
-  },
-  {
     "name": "LSV SERVICE, LLC",
     "description": "Landing page creada para un cliente en Texas, USA, especializado en construcción y servicios generales.",
     "url": "https://lsvservicellc.vercel.app",
     "path": "/portada-lsvservicellc.png",
+    "github": ""
+  },
+  {
+    "name": "PosicionAR!",
+    "description": "Aplicación web desarrollada para un cliente freelance. Cuenta con funcionalidad para publicar y administrar anuncios.",
+    "url": "https://posicionarenlinea.com",
+    "path": "/portada-posicionar.png",
     "github": ""
   }
 ]

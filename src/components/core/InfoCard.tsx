@@ -12,7 +12,7 @@ export default function InfoCard({
   year: string;
 }) {
   return (
-    <Card className="w-full shadow-black shadow-lg bg-slate-900 text-white hover:scale-105 transition-transform duration-300 ease-in-out">
+    <Card className="w-full rounded-md shadow-black shadow-md bg-slate-900 text-white hover:scale-105 transition-transform duration-300 ease-in-out">
       <CardHeader className="flex gap-3">
         <div className="flex flex-col">
           <p className="text-md 2xl:text-xl">{title}</p>

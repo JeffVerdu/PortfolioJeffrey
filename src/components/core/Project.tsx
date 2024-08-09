@@ -24,17 +24,17 @@ export const Project = ({ name, description, url, path }: ProjectType) => {
             {description}
           </p>
         </div>
-        <Button
-          className="text-sm 2xl:text-base"
-          color="default"
-          radius="full"
-          size="lg"
-        >
-          <a href={url} target="_blank" className="flex items-center gap-1">
+        <a href={url} target="_blank">
+          <Button
+            className="text-sm 2xl:text-base flex items-center gap-1"
+            color="default"
+            radius="full"
+            size="lg"
+          >
             <Globe size={16} />
             Visitar
-          </a>
-        </Button>
+          </Button>
+        </a>
       </CardFooter>
     </Card>
   );
