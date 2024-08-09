@@ -1,4 +1,4 @@
-import { FileCode2, Inbox, MapPin } from "lucide-react";
+import { FileCode2, Inbox } from "lucide-react";
 import { Mail } from "../core/Mail";
 import { useEffect, useState } from "react";
 import { Variants, motion } from "framer-motion";
