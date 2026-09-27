@@ -1,16 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
+import App from "./App";
 import "./index.css";
-import { HashRouter } from "react-router-dom";
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
-  </React.StrictMode>
-);
+const container = document.getElementById("root")!;
+const app = <React.StrictMode><App /></React.StrictMode>;
+if (container.hasChildNodes()) ReactDOM.hydrateRoot(container, app);
+else ReactDOM.createRoot(container).render(app);
+document.documentElement.classList.add("interactive");

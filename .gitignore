@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local design exploration and browser verification
+.impeccable/build/
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/questions/
+.impeccable/direction-options.json
+.impeccable/direction-notes.md
+.impeccable/direction-contract.md

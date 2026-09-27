@@ -1,0 +1,1 @@
+Fonts sourced from Google Fonts CSS API and the google/fonts repository. Bricolage Grotesque and Hanken Grotesk are distributed under the SIL Open Font License; see the included licenses. Self-hosted to avoid runtime third-party requests.

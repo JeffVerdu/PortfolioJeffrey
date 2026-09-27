@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-27T16:15:46.9544868Z",
+  "title": "Design System: Jeffrey Verdú",
+  "extensions": {
+    "shadows": [],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1250px"
+      },
+      {
+        "name": "stacked-hero",
+        "value": "950px"
+      },
+      {
+        "name": "mobile",
+        "value": "700px"
+      }
+    ],
+    "motion": [
+      {
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Layer settling and link arrows.",
+        "name": "ease"
+      },
+      {
+        "value": "160ms",
+        "purpose": "Button background and text colors.",
+        "name": "button-state"
+      },
+      {
+        "value": "180ms",
+        "purpose": "Tab background and text colors.",
+        "name": "tab-state"
+      },
+      {
+        "value": "260ms",
+        "purpose": "7px upward settling of selected panel; disabled for reduced motion.",
+        "name": "layer-settle"
+      }
+    ],
+    "colorMeta": {
+      "ground": {
+        "displayName": "Cool white ground",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.004 165)",
+          "oklch(26% 0.004 165)",
+          "oklch(38% 0.004 165)",
+          "oklch(49% 0.004 165)",
+          "oklch(61% 0.004 165)",
+          "oklch(72% 0.004 165)",
+          "oklch(84% 0.004 165)",
+          "oklch(95% 0.004 165)"
+        ]
+      },
+      "ink": {
+        "displayName": "Petrol ink",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.048 195)",
+          "oklch(26% 0.048 195)",
+          "oklch(38% 0.048 195)",
+          "oklch(49% 0.048 195)",
+          "oklch(61% 0.048 195)",
+          "oklch(72% 0.048 195)",
+          "oklch(84% 0.048 195)",
+          "oklch(95% 0.048 195)"
+        ]
+      },
+      "secondary": {
+        "displayName": "Slate secondary",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.021 200)",
+          "oklch(26% 0.021 200)",
+          "oklch(38% 0.021 200)",
+          "oklch(49% 0.021 200)",
+          "oklch(61% 0.021 200)",
+          "oklch(72% 0.021 200)",
+          "oklch(84% 0.021 200)",
+          "oklch(95% 0.021 200)"
+        ]
+      },
+      "mint": {
+        "displayName": "Mint",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.027 170)",
+          "oklch(26% 0.027 170)",
+          "oklch(38% 0.027 170)",
+          "oklch(49% 0.027 170)",
+          "oklch(61% 0.027 170)",
+          "oklch(72% 0.027 170)",
+          "oklch(84% 0.027 170)",
+          "oklch(95% 0.027 170)"
+        ]
+      },
+      "petrol": {
+        "displayName": "Petrol",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.057 195)",
+          "oklch(26% 0.057 195)",
+          "oklch(38% 0.057 195)",
+          "oklch(49% 0.057 195)",
+          "oklch(61% 0.057 195)",
+          "oklch(72% 0.057 195)",
+          "oklch(84% 0.057 195)",
+          "oklch(95% 0.057 195)"
+        ]
+      },
+      "line": {
+        "displayName": "Soft green line",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.027 180)",
+          "oklch(26% 0.027 180)",
+          "oklch(38% 0.027 180)",
+          "oklch(49% 0.027 180)",
+          "oklch(61% 0.027 180)",
+          "oklch(72% 0.027 180)",
+          "oklch(84% 0.027 180)",
+          "oklch(95% 0.027 180)"
+        ]
+      },
+      "on-dark": {
+        "displayName": "On petrol",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.004 165)",
+          "oklch(26% 0.004 165)",
+          "oklch(38% 0.004 165)",
+          "oklch(49% 0.004 165)",
+          "oklch(61% 0.004 165)",
+          "oklch(72% 0.004 165)",
+          "oklch(84% 0.004 165)",
+          "oklch(95% 0.004 165)"
+        ]
+      },
+      "primary-hover": {
+        "displayName": "Deep petrol",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.044 195)",
+          "oklch(26% 0.044 195)",
+          "oklch(38% 0.044 195)",
+          "oklch(49% 0.044 195)",
+          "oklch(61% 0.044 195)",
+          "oklch(72% 0.044 195)",
+          "oklch(84% 0.044 195)",
+          "oklch(95% 0.044 195)"
+        ]
+      },
+      "focus": {
+        "displayName": "Warm focus",
+        "role": "accent",
+        "tonalRamp": [
+          "oklch(15% 0.12 40)",
+          "oklch(26% 0.12 40)",
+          "oklch(38% 0.12 40)",
+          "oklch(49% 0.12 40)",
+          "oklch(61% 0.12 40)",
+          "oklch(72% 0.12 40)",
+          "oklch(84% 0.12 40)",
+          "oklch(95% 0.12 40)"
+        ]
+      },
+      "tab-ground": {
+        "displayName": "Pale tab ground",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.018 165)",
+          "oklch(26% 0.018 165)",
+          "oklch(38% 0.018 165)",
+          "oklch(49% 0.018 165)",
+          "oklch(61% 0.018 165)",
+          "oklch(72% 0.018 165)",
+          "oklch(84% 0.018 165)",
+          "oklch(95% 0.018 165)"
+        ]
+      },
+      "tab-hover": {
+        "displayName": "Tab hover mint",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.034 170)",
+          "oklch(26% 0.034 170)",
+          "oklch(38% 0.034 170)",
+          "oklch(49% 0.034 170)",
+          "oklch(61% 0.034 170)",
+          "oklch(72% 0.034 170)",
+          "oklch(84% 0.034 170)",
+          "oklch(95% 0.034 170)"
+        ]
+      },
+      "knowledge-ground": {
+        "displayName": "Knowledge ground",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.009 160)",
+          "oklch(26% 0.009 160)",
+          "oklch(38% 0.009 160)",
+          "oklch(49% 0.009 160)",
+          "oklch(61% 0.009 160)",
+          "oklch(72% 0.009 160)",
+          "oklch(84% 0.009 160)",
+          "oklch(95% 0.009 160)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "purpose": "Major section headings.",
+        "displayName": "Headline"
+      },
+      "title": {
+        "purpose": "Project names.",
+        "displayName": "Title"
+      },
+      "display": {
+        "purpose": "Profile headline.",
+        "displayName": "Display"
+      },
+      "label": {
+        "purpose": "Plain technology-list text.",
+        "displayName": "Label"
+      },
+      "body": {
+        "purpose": "Experience descriptions.",
+        "displayName": "Body"
+      }
+    }
+  },
+  "components": [
+    {
+      "description": "Filled action for primary navigation.",
+      "name": "Primary button",
+      "css": ".ds-button { display:inline-flex; align-items:center; justify-content:center; gap:12px; min-height:52px; padding:14px 30px; border:1px solid transparent; border-radius:9px; font:500 20px \"Hanken Grotesk\",sans-serif; text-decoration:none; transition:background-color 160ms,color 160ms; }.ds-primary { background:var(--color-petrol,#184747); color:var(--color-on-dark,#f5f7f6); }.ds-primary:hover { background:#0c3031; }.ds-primary:focus-visible { outline:3px solid #a04625; outline-offset:5px; }@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}",
+      "refersTo": "button-primary",
+      "kind": "button",
+      "html": "<a class=\"ds-button ds-primary\" href=\"#resume\">Ver experiencia</a>"
+    },
+    {
+      "description": "Quiet secondary action.",
+      "name": "Outlined button",
+      "css": ".ds-button { display:inline-flex; align-items:center; justify-content:center; gap:12px; min-height:52px; padding:14px 30px; border:1px solid transparent; border-radius:9px; font:500 20px \"Hanken Grotesk\",sans-serif; text-decoration:none; transition:background-color 160ms,color 160ms; }.ds-outline { background:transparent; color:var(--color-ink,#153e3f); border-color:var(--color-ink,#153e3f); }.ds-outline:hover { background:var(--color-mint,#d5e9e3); }.ds-outline:focus-visible { outline:3px solid #a04625; outline-offset:5px; }@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}",
+      "refersTo": "button-outline",
+      "kind": "button",
+      "html": "<a class=\"ds-button ds-outline\" href=\"#contact\">Contactar</a>"
+    },
+    {
+      "css": ".ds-link { display:inline-flex; align-items:center; gap:9px; min-height:48px; font:500 20px \"Hanken Grotesk\",sans-serif; color:var(--color-ink,#153e3f); text-decoration:none; text-underline-offset:5px; }.ds-link:hover { text-decoration:underline; }.ds-link svg { transition:transform 180ms cubic-bezier(.16,1,.3,1); }.ds-link:hover svg { transform:translateX(3px); }.ds-link:focus-visible { outline:3px solid #a04625; outline-offset:5px; }@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}",
+      "kind": "button",
+      "html": "<a class=\"ds-link\" href=\"#projects\">Ver proyecto <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "name": "Text link",
+      "description": "Inline action with a directional cue."
+    },
+    {
+      "css": ".ds-nav { display:flex; flex-wrap:wrap; gap:32px; background:var(--color-ground,#f5f7f6); color:var(--color-ink,#153e3f); font:400 17px \"Hanken Grotesk\",sans-serif; }.ds-nav a { padding:14px 0; text-decoration:none; text-underline-offset:5px; }.ds-nav a:hover { text-decoration:underline; }.ds-nav a:focus-visible { outline:3px solid #a04625; outline-offset:5px; }@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}",
+      "kind": "nav",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegación\"><a href=\"#resume\">Experiencia</a><a href=\"#projects\">Proyectos</a><a href=\"#skills\">Conocimientos</a></nav>",
+      "name": "Navigation",
+      "description": "Horizontal reading-path links; production uses a disclosure below 700px."
+    },
+    {
+      "description": "Inactive and selected visual states; production supplies keyboard tab behavior.",
+      "name": "Layer tab states",
+      "css": ".ds-tabs { display:flex; border:1px solid var(--color-line,#b7ceca); background:#e8f3ef; border-radius:9px; }.ds-tab { flex:1; min-width:0; min-height:51px; border:0; border-radius:8px; padding:8px 12px; background:transparent; color:var(--color-ink,#153e3f); font:400 21px \"Hanken Grotesk\",sans-serif; cursor:pointer; transition:background-color 180ms,color 180ms; }.ds-tab:hover { background:#bfd9d1; }.ds-tab.ds-selected { background:var(--color-petrol,#184747); color:var(--color-on-dark,#f5f7f6); }.ds-tab:focus-visible { outline:3px solid #a04625; outline-offset:5px; }@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}",
+      "refersTo": "layer-tab",
+      "kind": "custom",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab\" type=\"button\">Interfaz</button><button class=\"ds-tab ds-selected\" type=\"button\" aria-pressed=\"true\">Backend</button><button class=\"ds-tab\" type=\"button\">Datos</button></div>"
+    },
+    {
+      "description": "Flat, rounded explanatory surface.",
+      "name": "Mint container",
+      "css": ".ds-panel { background:var(--color-mint,#d5e9e3); color:var(--color-ink,#153e3f); border-radius:var(--radius,12px); padding:39px 42px 31px; }.ds-panel h2 { margin:0 0 25px; font:700 clamp(27px,2.6vw,40px)/1.2 \"Bricolage Grotesque\",sans-serif; letter-spacing:-.03em; }.ds-panel p { margin:0; color:var(--color-secondary,#536364); font:400 24px/1.3 \"Hanken Grotesk\",sans-serif; }@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}",
+      "refersTo": "layer-panel",
+      "kind": "card",
+      "html": "<section class=\"ds-panel\"><h2>Un perfil, distintas capas.</h2><p>React, Ruby on Rails y bases de datos.</p></section>"
+    },
+    {
+      "css": ".ds-details { border-block:1px solid var(--color-line,#b7ceca); color:var(--color-ink,#153e3f); font:400 17px \"Hanken Grotesk\",sans-serif; }.ds-details summary { display:flex; align-items:center; justify-content:space-between; min-height:48px; padding:15px 0; cursor:pointer; list-style:none; }.ds-details summary::-webkit-details-marker { display:none; }.ds-details[open] summary svg { transform:rotate(180deg); }.ds-details ul { padding:0 0 0 19px; color:var(--color-secondary,#536364); line-height:1.55; }.ds-details li { padding:0 0 12px 5px; }.ds-details summary:focus-visible { outline:3px solid #a04625; outline-offset:5px; }@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;}}",
+      "kind": "custom",
+      "html": "<details class=\"ds-details\"><summary>Qué desarrollé <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M12 5v14m-7-7 7 7 7-7\"/></svg></summary><ul><li>Búsqueda y filtros con React.</li></ul></details>",
+      "name": "Project disclosure",
+      "description": "Native expandable contribution list with divider boundaries."
+    }
+  ],
+  "narrative": {
+    "rules": [
+      {
+        "section": "elevation",
+        "body": "Use tonal contrast and dividers to express hierarchy in this system.",
+        "name": "The Flat Surface Rule"
+      }
+    ],
+    "northStar": "Capas de trabajo",
+    "overview": "Cool white, petrol ink and broad mint surfaces frame a professional, contemporary portfolio. Generous humanist typography and precise dividers make technical work readable without theatrical decoration. The visual character supports clear, direct Spanish and factual descriptions of experience.\n\nDepth comes from adjacent color fields, open rows and restrained corners. Controls share that flat language; short movement clarifies interaction while preserving the reading flow.",
+    "donts": [
+      "**Don't** turn the petrol content section into an invented dark-mode specification.",
+      "**Don't** replace the flat surface language with decorative shadows.",
+      "**Don't** convert plain technology labels into an unsupported pill system.",
+      "**Don't** present invented screenshots, metrics or professional claims as evidence."
+    ],
+    "dos": [
+      "**Do** use the self-hosted display and body pairing for their established roles.",
+      "**Do** group related content through color fields, open rows and fine dividers.",
+      "**Do** preserve keyboard focus visibility and the reduced-motion behavior.",
+      "**Do** use real project screenshots as evidence with descriptive alternative text."
+    ],
+    "keyCharacteristics": [
+      "Cool white ground with petrol contrast and mint grouping surfaces.",
+      "Expressive display type paired with a quiet, readable body face.",
+      "Open content rows, thin dividers and modestly rounded controls.",
+      "Brief functional motion with a reduced-motion alternative."
+    ]
+  }
+}
