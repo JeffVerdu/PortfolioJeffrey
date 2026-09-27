@@ -14,9 +14,10 @@ export function ExperienceDetails() {
           <div className="experience-contributions">
             <div><h4>Desarrollo en producción</h4><p>Construyo y mantengo funcionalidades en una plataforma Ruby on Rails dockerizada: lógica de negocio, modelos de datos, controladores, vistas y flujos de usuario.</p></div>
             <div><h4>Diagnóstico y mantenimiento</h4><p>Resuelvo incidencias con análisis de logs, validación de datos y seguimiento de procesos con Sidekiq. Trabajo con Docker, Git/GitLab, PostgreSQL y APIs REST, y participé en el seguimiento de despliegues en AWS.</p></div>
+            <div><h4>Integraciones y automatización</h4><p>Creo flujos con n8n para procesar datos de una base de datos y actualizar automáticamente la información en Google Sheets, además de automatizar el envío de mensajes en Slack.</p></div>
             <div><h4>Gestión en paralelo</h4><p>Administro procesos financieros en SAP: facturación de pagos, cobranza, conciliaciones bancarias y atención a estudiantes en sus temas financieros.</p></div>
           </div>
-          <p className="experience-stack">Ruby on Rails · JavaScript · PostgreSQL · Docker · Git/GitLab · AWS · Redis/Sidekiq</p>
+          <p className="experience-stack">Ruby on Rails · JavaScript · PostgreSQL · Docker · Git/GitLab · AWS · Redis/Sidekiq · n8n</p>
         </div>
       </article>
       <article className="experience-entry previous-experience">

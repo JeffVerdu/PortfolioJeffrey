@@ -43,6 +43,7 @@ export const skills = [
   { name: "Frontend", description: "JavaScript, TypeScript, React, HTML5, CSS3, Tailwind CSS, Bootstrap y SASS/SCSS." },
   { name: "Bases de datos", description: "PostgreSQL, MySQL y SQLite." },
   { name: "Infraestructura y herramientas", description: "Docker, AWS (logs y despliegues), Git/GitLab, Linux, Redis, Sidekiq, Postman, Firebase y Cloudinary." },
+  { name: "Integraciones y automatización", description: "n8n, procesamiento de datos e integraciones con Google Sheets y Slack." },
   { name: "Prácticas", description: "Debugging, control de versiones, integración frontend-backend y diseño responsivo." },
 ];
 
