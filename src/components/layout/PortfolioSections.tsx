@@ -10,7 +10,7 @@ export function ExperienceDetails() {
         <div className="experience-body">
           <h3>Academia Desafío Latam</h3>
           <p className="experience-focus">Desarrollo Full Stack y gestión administrativa</p>
-          <p className="official-role">Cargo oficial: Administrador de Recursos Administrativos, con funciones de desarrollo dentro del mismo equipo.</p>
+          <p className="official-role">Cargo contractual: Gestor de Recursos Administrativos, con funciones de desarrollo dentro del mismo equipo.</p>
           <div className="experience-contributions">
             <div><h4>Desarrollo en producción</h4><p>Construyo y mantengo funcionalidades en una plataforma Ruby on Rails dockerizada: lógica de negocio, modelos de datos, controladores, vistas y flujos de usuario.</p></div>
             <div><h4>Diagnóstico y mantenimiento</h4><p>Resuelvo incidencias con análisis de logs, validación de datos y seguimiento de procesos con Sidekiq. Trabajo con Docker, Git/GitLab, PostgreSQL y APIs REST, y participé en el seguimiento de despliegues en AWS.</p></div>
